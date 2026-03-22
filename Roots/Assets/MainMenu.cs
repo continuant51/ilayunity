@@ -8,6 +8,16 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("GameScene");
     }
 
+    public void OpenSettings()
+    {
+        Debug.Log("Settings clicked");
+    }
+
+    public void LoadGame()
+    {
+        Debug.Log("Load Game clicked");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
